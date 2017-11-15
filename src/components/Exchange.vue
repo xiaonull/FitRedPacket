@@ -1,7 +1,9 @@
 <template>
 	<section class="exchange">
 		<div class="bg">
-			
+			<div class="code">
+				
+			</div>
 		</div>
 	</section>
 </template>
@@ -30,13 +32,23 @@
 			top: 0;
 			left: 0;
 			width: 100%;
-			height: 85%;
+			height: 100%;
 			background-image: url('~@/assets/exchange_bg.jpg');
-			background-size: 100% 110%;
+			background-size: 100% 100%;
 			color: #000;
 			font-size: 1rem;
 			text-align: left;
 			overflow: hidden;
+
+			.code {
+				position: absolute;
+				width: 10rem;
+				height: 10rem;
+				left: 50%;
+				margin-left: -5rem;
+				bottom: 12%;
+				background-color: #fff;
+			}
 		}
 	}
 </style>

@@ -3,6 +3,9 @@
 		<div class="share" v-if="showShare" @click="close">
 			<div class="bg"></div>
 		</div>
+		<div class="bigAward" @click="toBigAward">
+			
+		</div>
 		<div class="rp">
 			<div class="money">￥{{main_rp}}</div>
 			<div class="text">
@@ -133,6 +136,9 @@
 			toRule() {
 				this.$router.push('/InstructionMerge');
 			},
+			toBigAward() {
+				this.$router.push('/bigAward');
+			},
 			loadScroll() {
 				this.$nextTick(() => {
 					if(!this.scroll) {
@@ -237,6 +243,17 @@
 		font-size: 1rem;
 		text-align: left;
 		overflow: hidden;
+
+		.bigAward {
+			position: absolute;
+			z-index: 5;
+			top: 1.5rem;
+			right: 1rem;
+			width: 9rem;
+			height: 7rem;
+			background-image: url('~@/assets/bigAward.png');
+			background-size: 100% 100%;
+		}
 
 		.rp {
 			position: relative;
