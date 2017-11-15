@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-11-03 12:52:14
+ * @version $Id$
+ */
+
+/*------*/
+	div#opened-redpacket{
+		width: 231.5px;
+		height: 231.5px;
+		left: 72.5px;
+		top: 103px;
+		background-color: rgba(112, 47, 59, 1);
+		border-radius: 232px;
+	}
+	div#opened-redpacket-back{
+		width: 131.5px;
+		height: 166px;
+		left:101px;
+		top: 27px;
+		-webkit-transform: rotate(12deg);
+		transform: rotate(12deg);
+	}
+	div.redpacket-back{
+		width: 131px;
+		height: 166px;
+		left: 0.5px;
+		color: rgba(80, 80, 80, 1);
+		background-color: rgba(236, 85, 73, 1);
+		border-radius: 7px;
+		font-size: 15px;
+		line-height: 150%;
+	}
+	div.redpacket-sticker{
+		width: 131.5px;
+		height: 36.5px;
+		color: rgba(80, 80, 80, 1);
+		background-color: rgba(223, 77, 71, 1);
+		border-radius: 7px;
+		font-size: 15px;
+		line-height: 150%;
+	}
+	div.redpacket-sticker-white{
+		width: 115px;
+		height: 23.5px;
+		left: 7.5px;
+		top: 13px;
+		color: rgba(80, 80, 80, 1);
+		background-color: rgba(255, 255, 255, 1);
+		border-radius: 4.5px;
+		font-size: 15px;
+		line-height: 150%;
+	}
+	div#opened-redpacket-front{
+		width: 144.5px;
+		height: 200.5px;
+		top: 32.5px;
+		-webkit-transform: rotate(-8deg);
+		transform: rotate(-8deg);
+		box-shadow: 0 0.063rem 0.063rem 0rem rgba(0,0,0,.5);
+
+	}
+	div.redpacket-front{
+		width: 144px;
+		height: 200.5px;
+		left: 0.5px;
+		color: rgba(80, 80, 80, 1);
+		background-color: rgba(236, 85, 73, 1);
+		border-radius: 7px;
+		font-size: 15px;
+		line-height: 150%;
+	}
+	div.redpacket-front-sticker{
+		width: 144.5px;
+		height: 3px;
+		top: 38px;
+		color: rgba(80, 80, 80, 1);
+		background-color: rgba(211, 64, 58, 1);
+		font-size: 15px;
+		line-height: 150%;
+	}
+	div.wd-text-one{
+		width: 32.5px;
+		height: 32.5px;
+		left: 56px;
+		top: 23px;
+		color: rgba(211, 64, 58, 1);
+		background-color: rgba(245, 126, 117, 1);
+		border-radius: 16.5px;
+		font-size: 13px;
+		line-height: 150%;
+	}	
+	div.wd-text-tip{
+		width: 145px;
+		height: 159.5px;
+		top: 41px;
+		color: rgba(255, 232, 216, 1);
+		font-size: 19.5px;
+		line-height: 150%;
+	}

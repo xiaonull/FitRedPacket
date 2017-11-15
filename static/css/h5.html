@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>h5</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="common.css" rel="stylesheet">
+<link href="redpacket.css" rel="stylesheet">
+<style type="text/css">
+	#get-redpacket-body{
+		background: #F0F0F0;
+	}
+	.mpx-1080{
+		max-width: 1080px;
+
+	}
+	div#get-redpacket-header{
+		margin: 0 auto;
+	}
+	div#get-redpacket-header{
+		background: #fff;
+	}
+	div#get-redpacket-header span.btn-back-miniprogram{
+		position: absolute;
+		left: 20px;
+		font-size: 17.5px;
+		z-index: 1;
+	}
+	div#get-redpacket-header h2.title{
+		text-align: center;
+		font-size: 17.5px;
+	}
+	div#get-redpacket-container{
+		margin: 0 auto;
+		text-align: center;
+	}
+	div#get-redpacket-container input[type="text"]{
+		width: 234.5px;
+		height: 44.5px;
+		left: 70.5px;
+		top: 420.5px;
+		text-indent: 11.5px;
+		color: rgba(80, 80, 80, 1);
+		background-color: rgba(255, 255, 255, 1);
+		border-radius: 4.5px;
+		font-size: 16.5px;
+	}
+
+
+
+</style>
+</head>
+<body id="get-redpacket-body">
+    <div id="get-redpacket-header" class="mpx-1080">
+    	<span class="btn-back-miniprogram"> < </span>
+    	<h2 class="title">红包领取</h2>
+    </div>
+        <div id="opened-redpacket" class="wrapperC">
+    	<div id="opened-redpacket-back" class="wrapperC">
+	    	<div class="redpacket-back boxC"></div>
+	    	<div class="redpacket-sticker boxC"></div>
+	    	<div class="redpacket-sticker-white boxC"></div>
+	    </div>
+	    <div id="opened-redpacket-front" class="wrapperC">
+	    	<div class="redpacket-front boxC"></div>
+	    	<div class="redpacket-front-sticker boxC"></div>
+	    	<div class="wd-text-one textC">one</div>
+	    	<div class="wd-text-tip textC">恭喜获得100元
+	红包</div>
+	    </div>
+    </div>
+    <div id="get-redpacket-container" class="mpx-1080">
+    	<div class="redpacket">
+    		<img src="" />
+    		<p>送你一个100元主红包，想要更大红包，
+必须分享给好友后获得红包合体</p>
+    	</div>
+    	<form action="http://" method="post">
+    		<div class="input-text-wrapper">
+    			<input type="text" name="uname" placeholder="名称" />
+    		</div>
+    		<div class="input-text-wrapper">
+    			<input type="text" name="uphone" placeholder="电话" />
+    		</div>
+    		<input type="submit" name="smt" value="立即领取">
+    	</form>
+    </div>
+</body>
+</html>

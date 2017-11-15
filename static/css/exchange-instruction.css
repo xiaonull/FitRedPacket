@@ -1,0 +1,280 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-11-03 16:44:00
+ * @version $Id$
+ */
+/*---common wxss is in the right tab---*/
+.wrapper_541{
+  width:375px;
+  height:23.5px;
+  position: fixed;
+}
+
+/* 集合.wrapper_541 内部元素--start */
+
+.box_2025{
+  width:374.5px;
+  height:23.5px;
+  top:0.5px;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(255, 255, 255, 1);
+  font-size:16.5px;
+  line-height: 150%;
+}
+
+.box_2024{
+  width:7px;
+  height:7px;
+  left:9.5px;
+  top:8.5px;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(0, 0, 0, 1);
+  border-radius:3.5px;
+  font-size:21px;
+}
+
+.box_2023{
+  width:7px;
+  height:7px;
+  left:18.5px;
+  top:8px;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(0, 0, 0, 1);
+  border-radius:3.5px;
+  font-size:21px;
+}
+
+.box_2022{
+  width:7px;
+  height:7px;
+  left:28px;
+  top:8px;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(0, 0, 0, 1);
+  border-radius:3.5px;
+  font-size:21px;
+}
+
+.box_2021{
+  width:7px;
+  height:7px;
+  left:37.5px;
+  top:8px;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(0, 0, 0, 1);
+  border-radius:3.5px;
+  font-size:21px;
+}
+
+.box_2020{
+  width:7px;
+  height:7px;
+  left:46.5px;
+  top:8px;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(0, 0, 0, 1);
+  border-radius:3.5px;
+  font-size:21px;
+}
+
+.text_2019{
+  width:51.5px;
+  height:23.5px;
+  left:53.5px;
+  top:0.5px;
+  color: rgba(0, 0, 0, 1);
+  font-size:14px;
+}
+
+.image_334{
+  width:17.5px;
+  height:14px;
+  left:105px;
+  top:5px;
+}
+
+.image_334 img{
+  filter: saturate(1.0) hue-rotate(0deg) brightness(0) contrast(1.0);
+}
+
+.text_2018{
+  width:99.5px;
+  height:23.5px;
+  left:138px;
+  color: rgba(0, 0, 0, 1);
+  font-size:14px;
+}
+
+.text_2017{
+  width:50px;
+  height:23.5px;
+  left:287.5px;
+  color: rgba(0, 0, 0, 1);
+  font-size:14px;
+}
+
+.image_333{
+  width:32px;
+  height:14px;
+  left:333px;
+  top:4.5px;
+}
+
+.image_333 img{
+  filter: saturate(1.0) hue-rotate(0deg) brightness(0) contrast(1.0);
+}
+
+/* 集合.wrapper_541 内部元素--end */
+
+.wrapper_542{
+  width:375px;
+  height:51.5px;
+  top:23.5px;
+  position: fixed;
+}
+
+/* 集合.wrapper_542 内部元素--start */
+
+.text_2026{
+  width:375px;
+  height:51.5px;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(255, 255, 255, 1);
+  font-size:17.5px;
+  line-height: 150%;
+}
+
+.icon_288{
+  width:28px;
+  height:28px;
+  left:341px;
+  top:13px;
+  font-size:28px;
+  color: rgba(23, 24, 25, 1);
+}
+
+.icon_287{
+  width:31px;
+  height:31px;
+  left:4px;
+  top:10px;
+  font-size:31px;
+  color: rgba(23, 24, 25, 1);
+}
+
+.icon_286{
+  width:31px;
+  height:31px;
+  left:4px;
+  top:10px;
+  font-size:31px;
+  color: rgba(23, 24, 25, 1);
+}
+
+/* 集合.wrapper_542 内部元素--end */
+
+.text_3000{
+  width:268px;
+  height:48.5px;
+  left:54px;
+  top:96px;
+  color: rgba(23, 24, 25, 1);
+  font-size:21px;
+  line-height: 150%;
+}
+
+.text_3008{
+  width:340px;
+  height:47px;
+  left:17.5px;
+  top:511px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 153, 0, 1);
+  box-shadow:1px solid rgba(0, 0, 0, 0.2);
+  border-radius:6px;
+  font-size:19px;
+  line-height: 150%;
+}
+
+.text_3010{
+  width:326px;
+  height:88px;
+  left:24.5px;
+  top:144px;
+  color: rgba(80, 80, 80, 1);
+  font-size:16.5px;
+  line-height: 150%;
+}
+
+.text_3011{
+  width:268px;
+  height:48.5px;
+  left:54px;
+  top:233px;
+  color: rgba(23, 24, 25, 1);
+  font-size:21px;
+  line-height: 150%;
+}
+
+.text_3012{
+  width:326px;
+  height:88px;
+  left:24.5px;
+  top:281.5px;
+  color: rgba(80, 80, 80, 1);
+  font-size:16.5px;
+  line-height: 150%;
+}
+
+.text_3243{
+  width:103.5px;
+  height:32.5px;
+  left:98.5px;
+  top:601px;
+  color: rgba(80, 80, 80, 1);
+  font-size:11px;
+  line-height: 150%;
+}
+
+.text_3244{
+  width:103.5px;
+  height:31.5px;
+  left:174.5px;
+  top:601px;
+  color: rgba(80, 80, 80, 1);
+  font-size:11px;
+  line-height: 150%;
+}
+
+.box_3245{
+  width:1px;
+  height:16.5px;
+  left:186.5px;
+  top:610.5px;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(153, 153, 153, 1);
+  font-size:16.5px;
+  line-height: 150%;
+}
+
+.text_3246{
+  width:103.5px;
+  height:31.5px;
+  left:135px;
+  top:626px;
+  color: rgba(80, 80, 80, 1);
+  font-size:10.5px;
+  line-height: 150%;
+}
+
+.text_3247{
+  width:103px;
+  height:29.5px;
+  left:135px;
+  top:562.5px;
+  color: rgba(42, 130, 228, 1);
+  font-size:16.5px;
+  line-height: 150%;
+}

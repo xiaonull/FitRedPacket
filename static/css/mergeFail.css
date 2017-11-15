@@ -1,0 +1,259 @@
+/*---common wxss is in the right tab---*/
+.wrapper_390{
+  width:375px;
+  height:23.5px;
+  position: fixed;
+}
+
+/* 集合.wrapper_390 内部元素--start */
+
+.box_1443{
+  width:374.5px;
+  height:23.5px;
+  top:0.5px;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(255, 255, 255, 1);
+  font-size:16.5px;
+  line-height: 150%;
+}
+
+.box_1442{
+  width:7px;
+  height:7px;
+  left:9.5px;
+  top:8.5px;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(0, 0, 0, 1);
+  border-radius:3.5px;
+  font-size:21px;
+}
+
+.box_1441{
+  width:7px;
+  height:7px;
+  left:18.5px;
+  top:8px;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(0, 0, 0, 1);
+  border-radius:3.5px;
+  font-size:21px;
+}
+
+.box_1440{
+  width:7px;
+  height:7px;
+  left:28px;
+  top:8px;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(0, 0, 0, 1);
+  border-radius:3.5px;
+  font-size:21px;
+}
+
+.box_1439{
+  width:7px;
+  height:7px;
+  left:37.5px;
+  top:8px;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(0, 0, 0, 1);
+  border-radius:3.5px;
+  font-size:21px;
+}
+
+.box_1438{
+  width:7px;
+  height:7px;
+  left:46.5px;
+  top:8px;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(0, 0, 0, 1);
+  border-radius:3.5px;
+  font-size:21px;
+}
+
+.text_1437{
+  width:51.5px;
+  height:23.5px;
+  left:53.5px;
+  top:0.5px;
+  color: rgba(0, 0, 0, 1);
+  font-size:14px;
+}
+
+.image_162{
+  width:17.5px;
+  height:14px;
+  left:105px;
+  top:5px;
+}
+
+.image_162 image{
+  filter: saturate(1.0) hue-rotate(0deg) brightness(0) contrast(1.0);
+}
+
+.text_1436{
+  width:99.5px;
+  height:23.5px;
+  left:138px;
+  color: rgba(0, 0, 0, 1);
+  font-size:14px;
+}
+
+.text_1435{
+  width:50px;
+  height:23.5px;
+  left:287.5px;
+  color: rgba(0, 0, 0, 1);
+  font-size:14px;
+}
+
+.image_161{
+  width:32px;
+  height:14px;
+  left:333px;
+  top:4.5px;
+}
+
+.image_161 image{
+  filter: saturate(1.0) hue-rotate(0deg) brightness(0) contrast(1.0);
+}
+
+/* 集合.wrapper_390 内部元素--end */
+
+.wrapper_391{
+  width:375px;
+  height:51.5px;
+  position: fixed;
+}
+
+/* 集合.wrapper_391 内部元素--start */
+
+.text_1444{
+  width:375px;
+  height:51.5px;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(255, 255, 255, 1);
+  font-size:17.5px;
+  line-height: 150%;
+}
+
+.icon_188{
+  width:28px;
+  height:28px;
+  left:341px;
+  top:13px;
+  font-size:28px;
+  color: rgba(23, 24, 25, 1);
+}
+
+.icon_187{
+  width:31px;
+  height:31px;
+  left:4px;
+  top:10px;
+  font-size:31px;
+  color: rgba(23, 24, 25, 1);
+}
+
+.icon_195{
+  width:31px;
+  height:31px;
+  left:4px;
+  top:10px;
+  font-size:31px;
+  color: rgba(23, 24, 25, 1);
+}
+
+/* 集合.wrapper_391 内部元素--end */
+
+.text_1453{
+  width:340px;
+  height:47px;
+  left:17.5px;
+  top:511px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(186, 28, 28, 1);
+  box-shadow:1px solid rgba(0, 0, 0, 0.2);
+  border-radius:6px;
+  font-size:19px;
+  line-height: 150%;
+}
+
+.text_1454{
+  width:340px;
+  height:27px;
+  left:19px;
+  top:83px;
+  color: rgba(0, 0, 0, 1);
+  font-size:17.5px;
+  line-height: 150%;
+}
+
+.text_3238{
+  width:103.5px;
+  height:32.5px;
+  left:98.5px;
+  top:601px;
+  color: rgba(80, 80, 80, 1);
+  font-size:11px;
+  line-height: 150%;
+}
+
+.text_3239{
+  width:103.5px;
+  height:31.5px;
+  left:174.5px;
+  top:601px;
+  color: rgba(80, 80, 80, 1);
+  font-size:11px;
+  line-height: 150%;
+}
+
+.box_3240{
+  width:1px;
+  height:16.5px;
+  left:186.5px;
+  top:610.5px;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(153, 153, 153, 1);
+  font-size:16.5px;
+  line-height: 150%;
+}
+
+.text_3241{
+  width:103.5px;
+  height:31.5px;
+  left:135px;
+  top:626px;
+  color: rgba(80, 80, 80, 1);
+  font-size:10.5px;
+  line-height: 150%;
+}
+
+.text_3242{
+  width:103px;
+  height:29.5px;
+  left:135px;
+  top:562.5px;
+  color: rgba(42, 130, 228, 1);
+  font-size:16.5px;
+  line-height: 150%;
+}
+
+.image_702{
+  width:187px;
+  height:241.5px;
+  left:96px;
+  top:178px;
+}
+
+.text_1449{
+  width:177px;
+  height:126.5px;
+  left:101px;
+  top:220.5px;
+  color: rgba(255, 232, 216, 1);
+  font-size:24px;
+  line-height: 150%;
+}
