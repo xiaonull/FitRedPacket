@@ -2,7 +2,11 @@
 	<section class="exchange">
 		<div class="bg">
 			<div class="code">
-				<img src="~@/assets/code.jpg" class="img">
+				<!-- <img src="~@/assets/code.jpg" class="img"> -->
+				<div class="text">
+					<p>小程序正在升级</p>
+					<p>敬请期待</p>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -52,6 +56,21 @@
 				.img {
 					width: 100%;
 					height: 100%;
+				}
+
+				.text {
+					height: 4rem;
+					line-height: 2rem;
+					font-size: 1.2rem;
+					text-align: center;
+
+					position: relative;
+					top: 50%;
+					margin-top: -1.8rem;
+
+					p {
+						margin: 0;
+					}
 				}
 			}
 		}
