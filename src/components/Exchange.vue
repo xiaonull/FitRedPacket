@@ -2,7 +2,7 @@
 	<section class="exchange">
 		<div class="bg">
 			<div class="code">
-				
+				<img src="~@/assets/code.jpg" class="img">
 			</div>
 		</div>
 	</section>
@@ -48,6 +48,11 @@
 				margin-left: -5rem;
 				bottom: 12%;
 				background-color: #fff;
+
+				.img {
+					width: 100%;
+					height: 100%;
+				}
 			}
 		}
 	}
