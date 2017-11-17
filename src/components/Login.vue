@@ -10,7 +10,7 @@
 			<p class="text">留下信息快去抢红包吧！</p>
 		</div>
 		<div class="form">
-			<input type="text" name="name" placeholder="名称" v-model="name">
+			<input type="text" name="name" placeholder="名称（只支持汉字、英文、数字）" v-model="name">
 			<input type="number" name="phone" placeholder="电话" v-model="phone">
 		</div>
 		<div class="toLogin" @click="login">立即抢红包</div>
@@ -68,20 +68,33 @@
 	}
 
 	function funcUrlDel(name){
-	    var loca = window.location;
-	    var baseUrl = loca.origin + loca.pathname + "?";
-	    var query = loca.search.substr(1);
-	    if (query.indexOf(name)>-1) {
-	        var obj = {}
-	        var arr = query.split("&");
-	        for (var i = 0; i < arr.length; i++) {
-	            arr[i] = arr[i].split("=");
-	            obj[arr[i][0]] = arr[i][1];
-	        };
-	        delete obj[name];
-	        var url = baseUrl + JSON.stringify(obj).replace(/[\"\{\}]/g,"").replace(/\:/g,"=").replace(/\,/g,"&");
-	        return url
-	    };
+		var loca = window.location;
+		var baseUrl = loca.origin + loca.pathname + "?";
+		var query = loca.search.substr(1);
+		if (query.indexOf(name)>-1) {
+			var obj = {}
+			var arr = query.split("&");
+			for (var i = 0; i < arr.length; i++) {
+				arr[i] = arr[i].split("=");
+				obj[arr[i][0]] = arr[i][1];
+			};
+			delete obj[name];
+			var url = baseUrl + JSON.stringify(obj).replace(/[\"\{\}]/g,"").replace(/\:/g,"=").replace(/\,/g,"&");
+			return url
+		};
+	}
+
+	function emoji2Str(str) {
+		return unescape(escape(str).replace(/\%uD.{3}/g, ''));
+	}
+
+	function filteremoji(str) {
+		var ranges = [
+		'\ud83c[\udf00-\udfff]', 
+		'\ud83d[\udc00-\ude4f]', 
+		'\ud83d[\ude80-\udeff]'
+		];
+		return str.replace(new RegExp(ranges.join('|'), 'g'), '');
 	}
 
 	export default {
@@ -120,6 +133,8 @@
 		},
 		methods: {
 			login() {
+				this.name = filteremoji(this.name);
+
 				if(this.name === '' || this.phone === '') {
 					hts_bus.$emit('openMsg', '请填写完整信息');
 
