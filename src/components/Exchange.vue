@@ -2,11 +2,11 @@
 	<section class="exchange">
 		<div class="bg">
 			<div class="code">
-				<!-- <img src="~@/assets/code.jpg" class="img"> -->
-				<div class="text">
+				<img src="~@/assets/code.jpg" class="img">
+				<!-- <div class="text">
 					<p>小程序正在升级</p>
 					<p>敬请期待</p>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</section>
