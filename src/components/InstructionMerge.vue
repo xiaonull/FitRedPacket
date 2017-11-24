@@ -2,7 +2,7 @@
 	<section class="instructionMerge">
 		<h2 class="header">红包合体玩法说明</h2>
 		<p class="main_text">1.抢到红包后与好友分享合体可使红包数额变大；</p>
-		<p class="main_text">2.红包数额随即累加，与好友合体至1118即可获得1118元现金券。</p>
+		<p class="main_text">2.红包数额随即累加，与好友合体至1118即可获得1118元代金券。</p>
 		<div class="footer">
 			<p class="text">
 				<span>游戏规则</span>
